@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Password generator</title>
+</head>
+<body>
+    <form class="box" action="generator.js">
+        <h1>PASSWORD GENERATOR</h1>
+        <input type="text" placeholder="Nom du site" id="site">
+        <input type="email" placeholder="Email utilisée pour le site" id="email">
+        <input type="text" placeholder="Username utilisé sur le site" id="username">
+        <input type="button" value="Générer le mot de passe" id="code">
+        <input type="text" value="" name="" placeholder="Mot de passe" id="mdp" readonly="">
+        <input readonly type="text" value="Résultat" placeholder="Résultat final" id="result">
+        <input type="button" value="Sélectionner le résultat et le copier" id="selecCopy"> 
+    </form>
+    <script src="generator.js"></script>
+</body>
+</html>

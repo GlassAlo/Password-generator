@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #181616 ;
+    font-family: 'Oswald', sans-serif ;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5cm;
+  }
+
+.box {
+    width: 300px;
+    padding: 40px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #181616;
+    text-align: center;
+}
+
+.box input[type = "text"], .box input[type = "email"] {
+    border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+
+}
+.box input[type = "text"]:focus,.box input[type = "email"]:focus{
+    width: 300px;
+    border-color: #ffc617    ;
+  }
+  
+.box input[type = "button"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffc617;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 45px;
+    color: white;
+    transition: 0.50s;
+    cursor: pointer;
+    
+}
+.box input[type = "button"]:hover {
+    background-color: #ffc617;
+    color: black;
+}
